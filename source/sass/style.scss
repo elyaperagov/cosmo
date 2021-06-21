@@ -1,8 +1,12 @@
+
 @import "general/fonts.scss";
 @import "general/variables.scss";
 @import "general/common.scss";
 @import "general/normalize.scss";
 @import "general/mixins.scss";
+
+@import "blocks/special.scss";
+
 @import "blocks/info.scss";
 @import "blocks/button.scss";
 @import "blocks/reviews.scss";
