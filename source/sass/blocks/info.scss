@@ -1,0 +1,54 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: $main-background;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #252525;
+        margin: 0 0 14px;
+    }
+    @media (max-width: $tablets-max) {}
+    @media (max-width: $mobiles-max) {}
+}
+
+.info__general {
+    display: flex;
+    margin-top: 16px;
+}
+
+.info__top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26.5px;
+}
+
+.info__inner {
+    width: 67%;
+    margin-right: 11.5%;
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #555555;
+        margin: 0 0 10px 0;
+    }
+}
+
+.info__logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 6.5%;
+    margin-top: 50px;
+}
+
+.info__text {}
+
+.info__scroll {}

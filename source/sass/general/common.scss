@@ -1,0 +1,109 @@
+/* stylelint-disable */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Rubik';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    @media (max-width: $tablets-max) {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 120%;
+    }
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    @media (max-width: $tablets-max) {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 120%;
+    }
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    @media (max-width: $tablets-max) {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 120%;
+    }
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0;
+}
+
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}

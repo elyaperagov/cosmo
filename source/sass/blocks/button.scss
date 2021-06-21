@@ -1,0 +1,28 @@
+.button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    &--review {
+        background: $main-background;
+        border: 2px solid #307EEC;
+        border-radius: 50px;
+        align-self: baseline;
+        width: 24.5%;
+        padding: 11px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #307EEC;
+    }
+    &--show-more {
+        width: 270px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+}
